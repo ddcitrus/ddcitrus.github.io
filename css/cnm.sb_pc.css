@@ -253,7 +253,7 @@ li{
 	margin-top: 8px;
 }
 .nav01_but{
-	margin-top: 14%;
+	margin-top: 30%;
 }
 .nav01_but div{
 	float: left;
@@ -261,7 +261,7 @@ li{
 	padding: 0px 40px;
 	margin: 0px 10px;
 	/* 按钮边框颜色 */
-	border: 1px solid #4b9cdb;
+	border: 1px solid #FFB6C1;
 	font-size: 13px;
 	line-height: 36px;
 	letter-spacing: 2px;
@@ -271,15 +271,15 @@ li{
 .nav01_but01{
 	/* 首页探索按钮颜色 */
 	color: #F9F9F9;
-	background-color: #4b9cdb;
+	background-color: #FFB6C1;
 }
 .nav01_but02{
 	/* 联系作者字体颜色 */
-	color: #4b9cdb;
+	color: #FFB6C1;
 }
 .nav01_but div:hover{
 	color: #F9F9F9;
-	background-color: #4b9cdb;
+	background-color: #FFB6C1;
 	box-shadow: 0px 0px 10px rgba(40,40,40,0.2);
 }
 .nav01_right{
