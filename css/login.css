@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+      /* 登陆窗口控制 */
+      display: flex;
+      flex-direction : column ;
+      height: 100vh;
+}
+
+.login {
+    position: absolute; /* 使用绝对定位 */
+    top: 50%; /* 将元素定位到视口的垂直中心 */
+    left: 50%; /* 将元素定位到视口的水平中心 */
+    transform: translate(-50%, calc(-50% + 210px)); /* 向左和向上移动自身宽度和高度的一半，210px是向下偏移量 */
+    
+    margin :auto;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* 使背景模糊化 */
+    box-shadow: 0 0 30px #a29bfe;  /*边框*/
+    border-radius: 50px;  /*圆角*/
+}
+
+.table {  /*请登录账户*/
+       font: 40px Helvetica, sans-serif;
+       text-align: center;
+       letter-spacing: 5px;
+       color: #FF69B4;
+}
+
+.box {  
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+}
+
+.box input {
+            width: 350px;
+            height: 100%;
+            margin-bottom: 20px;
+            outline: none;
+            border: 0;
+            padding: 10px;
+            background-color: transparent;
+            border-bottom: 3px solid rgb(150, 150, 240);
+            font: 1000 20px '';
+}
+
+.go {
+     display: block;
+
+    width: 200px;    /* 按钮的宽度 */
+    height: 35px;    /* 按钮的高度 */
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+     padding: 10px;
+     font: 23px '';
+     border-radius: 20px;
+     margin-top: 20px;
+     color: #fff;
+     letter-spacing: 5px;
+     background-image: linear-gradient(to left, #fd79a8,#a29bf6);  /*渐变色*/
+}
