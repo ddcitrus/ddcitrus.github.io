@@ -540,66 +540,152 @@ li{
 	width: 100%;
 	height: 100%;
 	background-color: #efefef;
-	background-image: url(../img/tuand.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
 	position: absolute;
 	top: 0;
 	right: 0;
-	z-index: 5;
+	z-index: 6;
 }
-.enav03_p{
+/* 设置滚动条的样式 */
+#nav03::-webkit-scrollbar {
+   width:8px;
+}
+/* 滚动槽 */
+#nav03::-webkit-scrollbar-track {
+   -webkit-box-shadow:rgba(254,254,254,1);
+   border-radius:10px;
+}
+/* 滚动条滑块 */
+#nav03::-webkit-scrollbar-thumb {
+   border-radius:3px;
+   background-color: rgba(40,40,40,0.6);
+}
+.nav03_bg{
 	width: 100%;
-	height: 50%;
-	background: #FFFFFF00;
+	height: 360px;
+	/* 关于站长页面顶部头图 */
+	background-image: url(../img/gybz.jpg);
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	position: relative;
 }
-.enav03_p h3{
-	font: 3em cnm,Arial,sans-serif;
-	text-shadow: 10px 10px 10px #909090;
+.nav03_bt{
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	/* 顶图文字背景颜色 */
+	background-image: linear-gradient(to top left,#25d8df , #CD69C9);
+	border-radius: 5px;
+	padding: 0px 10px;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	right: 0;
+	margin: auto;
 	color: #282828;
-	letter-spacing: 20px;
-	padding-top: 10%;
+	font-size: 22px;
+	letter-spacing: 1px;
 }
-.enav03_p h3 span{
-	font-family: "宋体";
-	text-shadow: 10px 10px 10px #909090;
-	color: #282828;
-	letter-spacing: 20px;
-	padding-top: 10%;
+.nav03_kj{
+	width: 90%;
+	margin: 80px auto 10px auto;
+	text-align: left;
+	overflow: hidden;
 }
-.enav03_p h5{
-	font-size: 14px;
-	color: #282828;
+.nav03_kj h3{
+	font-size: 20px;
 	font-weight: 600;
-	letter-spacing: 8px;
-	padding-top: 2%;
+	letter-spacing: 3px;
+	color: rgba(40,40,40,0.8);
+	margin: 50px 0px;
 }
-.enav03_p p{
-	font-size: 12px;
-	color: #c4c4c4;
-	font-weight: 400;
-	letter-spacing: 2px;
-	padding-top: 3%;
+.nav03_grzl_headimg{
+	width: 25%;
+	height: 100%;
+	border-right: 1px dashed rgba(40,40,40,0.2);
+	float: left;
 }
-.enav03_team{
-	width: 100%;
-	height: 50%;
-	background-color: #FFFFFF00;
-	font-size: 0; /*去除图片间的间隙*/
+.nav03_grzl_headimg img{
+	width: 160px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
 }
-.enav03_team img{
-	width: 120px;
+.nav03_grzl_headimg a{
+	display: inline-block;
+	width: 70%;
+	height: 36px;
+	border-radius: 4px;
+	background-color: #a5adf6;	/* 联系站长按钮 */
+	color: #f9f9f9;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
 	margin-top: 40px;
 }
-.enav03_team img:nth-child(1){
-	width: 108px;
+.nav03_grzl_txt{
+	width: 70%;
+	height: 100%;
+	float: left;
+	padding-left: 5%;
 }
-.enav03_team img:nth-child(4){
-	width: 150px;
+.nav03_grzl_txt p{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 50px;
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.08);
 }
-.enav03_team img:nth-child(5){
-	width: 115px;
+.nav03_kj p{
+	width: 90%;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 2em;
+	font-size: 14px;
+	text-shadow: 10px 10px 10px #909090;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: rgba(40,40,40,0.9);
+	border-bottom: 1px dashed rgba(40,40,40,0.2);
 }
+.mb03{
+}
+.mb03>p{
+	border: 0px;
+	clear: left;
+}
+.mb03>div{
+	width: 18%;
+	height: 200px;
+	float: left;
+	margin: 10px 2%;
+	border-radius: 6px;
+	text-align: center;
+	background-color: rgba(245,245,245,0.5);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.mb03>div:hover{
+	background-color: rgba(245,245,245,0.7);
+	box-shadow: 0px 0px 10px rgba(40,40,40,0.2);
+}
+.mb03>div img{
+	width: 80%;
+	margin-top: 16px;
+	border-radius: 8px;
+}
+.mb03>div span{
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #282828;
+}
+
 
 /* 页面四-联系作者 */
 #nav04{
