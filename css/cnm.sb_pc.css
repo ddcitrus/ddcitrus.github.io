@@ -563,7 +563,7 @@ li{
    border-radius:3px;
    background-color: rgba(40,40,40,0.6);
 }
-.nav02_bg{
+.nav03_bg{
 	width: 100%;
 	height: 360px;
 	/* 关于站长页面顶部头图 */
@@ -573,7 +573,7 @@ li{
 	background-repeat: no-repeat;
 	position: relative;
 }
-.nav02_bt{
+.nav03_bt{
 	width: 240px;
 	height: 60px;
 	line-height: 60px;
@@ -590,20 +590,20 @@ li{
 	font-size: 22px;
 	letter-spacing: 1px;
 }
-.nav02_kj{
+.nav03_kj{
 	width: 90%;
 	margin: 80px auto 10px auto;
 	text-align: left;
 	overflow: hidden;
 }
-.nav02_kj h3{
+.nav03_kj h3{
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 3px;
 	color: rgba(40,40,40,0.8);
 	margin: 50px 0px;
 }
-.nav02_grzl_headimg{
+.nav03_grzl_headimg{
 	width: 25%;
 	height: 100%;
 	border-right: 1px dashed rgba(40,40,40,0.2);
@@ -614,7 +614,7 @@ li{
 	border-radius: 6px;
 	box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
 }
-.nav02_grzl_headimg a{
+.nav03_grzl_headimg a{
 	display: inline-block;
 	width: 70%;
 	height: 36px;
@@ -626,13 +626,13 @@ li{
 	text-align: center;
 	margin-top: 40px;
 }
-.nav02_grzl_txt{
+.nav03_grzl_txt{
 	width: 70%;
 	height: 100%;
 	float: left;
 	padding-left: 5%;
 }
-.nav02_grzl_txt p{
+.nav03_grzl_txt p{
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -640,7 +640,7 @@ li{
 	color: rgba(40,40,40,0.9);
 	border-bottom: 1px dashed rgba(40,40,40,0.08);
 }
-.nav02_kj p{
+.nav03_kj p{
 	width: 90%;
 	text-align: justify;
 	line-height: 40px;
@@ -652,13 +652,13 @@ li{
 	color: rgba(40,40,40,0.9);
 	border-bottom: 1px dashed rgba(40,40,40,0.2);
 }
-.mb03{
+.mb04{
 }
-.mb03>p{
+.mb04>p{
 	border: 0px;
 	clear: left;
 }
-.mb03>div{
+.mb04>div{
 	width: 18%;
 	height: 200px;
 	float: left;
@@ -669,26 +669,26 @@ li{
 	cursor: pointer;
 	transition: 0.5s;
 }
-.mb03>div:hover{
+.mb04>div:hover{
 	background-color: rgba(245,245,245,0.7);
 	box-shadow: 0px 0px 10px rgba(40,40,40,0.2);
 }
-.mb03>div img{
+.mb04>div img{
 	width: 80%;
 	margin-top: 16px;
 	border-radius: 8px;
 }
-.mb03>div span{
+.mb04>div span{
 	line-height: 50px;
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 2px;
 	color: #282828;
 }
-#ejn{
+#ejin{
 	margin-bottom: 80px;
 }
-#ejn a{
+#ejin a{
 	display: inline-block;
 	line-height: 36px;
 	padding: 0px 20px;
@@ -700,10 +700,10 @@ li{
 	background-color: #F9F9F9;
 	transition: 0.5s;
 }
-#ejn a:hover{
+#ejin a:hover{
 	box-shadow: 0px 0px 10px rgba(40,40,40,0.1);
 }
-.ebpx{
+.ebipx{
 	font-size: 12px;
 	letter-spacing: 2px;
 	font-weight: 400;
